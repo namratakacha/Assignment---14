@@ -16,7 +16,7 @@ class Iconbttn extends StatelessWidget {
                     Column(
                       children: [
                         Row(
-                          children: [
+                          children: const [
                             Padding(padding: EdgeInsets.all(10)),
                             CircleAvatar(
                               radius: 30.0,
@@ -30,7 +30,7 @@ class Iconbttn extends StatelessWidget {
                         ),
                         Padding(padding: EdgeInsets.all(10)),
                         Row(
-                          children: [
+                          children: const [
                             Padding(padding: EdgeInsets.all(10)),
                             CircleAvatar(
                               radius: 30.0,

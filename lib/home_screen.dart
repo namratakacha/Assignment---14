@@ -25,7 +25,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       body: ListView(
         padding: EdgeInsets.all(20),
-        children: [
+        children: const [
           AlertDialg(),
           Padding(padding: EdgeInsets.all(20)),
           RadioButtonDialog(),
